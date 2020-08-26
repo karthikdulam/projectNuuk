@@ -525,7 +525,7 @@ svg
 {
     position: absolute;
     right: 0;
-    bottom: 215.8px;
+    bottom: 215.5px;
     text-align: center;
     background-color: #0a1229;
     padding: 10px;
@@ -648,7 +648,7 @@ svg
 #section2
 {
     margin-top: 50px;
-    padding: 40px 130px;
+    padding: 40px 5%;
     position: relative;
 }
 #sec2-top .background-text::after { 
@@ -659,15 +659,26 @@ svg
     display: flex;
     justify-content: space-between;
 }
+#sec2-top
+{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 #sec2-div-container
 {
     display: flex;
     margin-top: 50px;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #sec2-div-container > div
 {
     margin-bottom: 5%;
-    padding-right: 4px;
+    padding-right: 3%;
     width: 25%;
 }
 #sec2-div-container > div > img
@@ -760,7 +771,7 @@ svg
 #section3
 {
     margin-top: 10px;
-    padding: 40px 130px;
+    padding: 40px 5%;
 }
 #sec3-content1 > div > img
 {
@@ -772,6 +783,10 @@ svg
 {
     display: flex;
     align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #sec3-content1 > div
 {
@@ -798,6 +813,10 @@ svg
     display: flex;
     margin-top: 5%;
     justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #sec3-content2 > div
 {
@@ -881,7 +900,11 @@ svg
 }
 #sec4-art1-top
 {
-    padding: 50px 130px;
+    padding: 50px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #sec4-art1-top .background-text::after { 
     content: "PROJECTS"; 
@@ -1043,18 +1066,25 @@ svg
 /* article 4 */
 #sec4-article4
 {
-    padding: 50px 130px;
+    padding: 50px 5%;
 }
 #sec4-art2-top .background-text::after { 
     content: "TEAM"; 
     z-index: 1;
 }
-#sec4-article4 > aside
+#sec4-article4 > div
+{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sec4-article4 > div > aside
 {
     display: flex;
     justify-content: space-between;
 }
-#sec4-article4 > aside > div
+#sec4-article4 > div > aside > div
 {
     width: 25%;
     height: 100%;
@@ -1062,11 +1092,11 @@ svg
     margin: 20px;
     position: relative;
 }
-#sec4-article4 > aside > div:first-of-type
+#sec4-article4 > div > aside > div:first-of-type
 {
     margin-left: 0;
 }
-#sec4-article4 > aside > div > div:first-of-type
+#sec4-article4 > div > aside > div > div:first-of-type
 {
     height: 100%;
     min-height: 300px;
@@ -1074,42 +1104,42 @@ svg
     background-size: cover;
     background-repeat: no-repeat;
 }
-#sec4-article4 > aside > div:first-of-type > div:first-of-type
+#sec4-article4 > div > aside > div:first-of-type > div:first-of-type
 {
     background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg');
 }
-#sec4-article4 > aside > div:nth-of-type(2) > div:first-of-type
+#sec4-article4 > div > aside > div:nth-of-type(2) > div:first-of-type
 {
     background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg');
 }
-#sec4-article4 > aside > div:nth-of-type(3) > div:first-of-type
+#sec4-article4 > div > aside > div:nth-of-type(3) > div:first-of-type
 {
     background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-3.jpg');
 }
-#sec4-article4 > aside > div:nth-of-type(4) > div:first-of-type
+#sec4-article4 > div > aside > div:nth-of-type(4) > div:first-of-type
 {
     background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg');
 }
-#sec4-article4 > aside > div > div:nth-of-type(2)
+#sec4-article4 > div > aside > div > div:nth-of-type(2)
 {
     padding: 29px 66px 29px 29px;
     background-color: #fff;
 }
-#sec4-article4 > aside > div > div:nth-of-type(2) > h3
+#sec4-article4 > div > aside > div > div:nth-of-type(2) > h3
 {
     margin: 0;
     padding: 0;
 }
-#sec4-article4 > aside > div > div:nth-of-type(2) > p
+#sec4-article4 > div > aside > div > div:nth-of-type(2) > p
 {
     margin: 0;
 }
-#sec4-article4 > aside > div > div:nth-of-type(3)
+#sec4-article4 > div > aside > div > div:nth-of-type(3)
 {
     bottom: 0;
     background-color: #e47312;
 }
-#sec4-article4 > aside > div > div:nth-of-type(3) > i
+#sec4-article4 > div > aside > div > div:nth-of-type(3) > i
 {
     color: white;
 }
@@ -1119,17 +1149,17 @@ svg
     {
         padding: 50px 30px;
     }
-    #sec4-article4 > aside > div > div:nth-of-type(3)
+    #sec4-article4 > div > aside > div > div:nth-of-type(3)
     {
         position: absolute;
         transform: unset;
     }
-    #sec4-article4 > aside > div
+    #sec4-article4 > div > aside > div
     {
         min-height: 200px;
         margin: 10px;
     }
-    #sec4-article4 > aside > div > div:first-of-type
+    #sec4-article4 > div > aside > div > div:first-of-type
     {
         min-height: 200px;
     }
@@ -1140,11 +1170,11 @@ svg
     {
         padding: 50px 40px;
     }
-    #sec4-article4 > aside
+    #sec4-article4 > div > aside
     {
         flex-direction: column;
     }
-    #sec4-article4 > aside > div
+    #sec4-article4 > div > aside > div
     {
         width: 100%;
         height: 100%;
@@ -1153,7 +1183,7 @@ svg
         margin-left: 0;
         position: relative;
     }
-    #sec4-article4 > aside > div > div:first-of-type
+    #sec4-article4 > div > aside > div > div:first-of-type
     {
         min-height: 300px;
     }
@@ -1181,21 +1211,28 @@ svg
 }
 #sec4-article5
 {
-    padding: 100px 130px;
+    padding: 100px 5%;
+}
+#sec4-article5 > div
+{
     display: flex;
     align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
-#sec4-article5 > aside:first-of-type
+#sec4-article5 > div > aside:first-of-type
 {
     width: 41%;
     padding-right: 100px;
     margin-bottom: 70px;
 }
-#sec4-article5 > aside:first-of-type h1
+#sec4-article5 > div > aside:first-of-type h1
 {
     margin-bottom: 30px;
 }
-#sec4-article5 > aside:first-of-type h4
+#sec4-article5 > div > aside:first-of-type h4
 {
     width: 90px;
     margin-top: 30px;
@@ -1221,6 +1258,7 @@ svg
     margin: 60px 20px;
     text-align: center;
     padding: 40px 30px 10px;
+    z-index: 1;
 }
 .testimonal-blocks > p:nth-of-type(1)
 {
@@ -1262,7 +1300,7 @@ svg
         flex-direction: column;
         align-items: unset;
     }
-    #sec4-article5 > aside:first-of-type
+    #sec4-article5 > div > aside:first-of-type
     {
         width: 100%;
         padding-right: 0px;
@@ -1310,13 +1348,17 @@ svg
 /* section 5 */
 #section5
 {
-    padding: 50px 130px;
+    padding: 50px 5%;
     margin-bottom: 7%;
 }
 #sec5-top
 {
     margin-bottom: 4%;
     margin-top: 4%;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #section5 .sec-headings::after
 {
@@ -1330,6 +1372,10 @@ svg
 {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #section5 > aside > article
 {
@@ -1406,7 +1452,7 @@ svg
 #section5 > aside .sec-link-hovers::after
 {
     background-color: white;
-    height: 1.5px;
+    height: 2px;
     opacity: 0.4;
 }
 #section5 > aside .sec-link-hovers:hover::after
@@ -1468,7 +1514,7 @@ svg
 /* section 6 */
 #section6
 {
-    padding: 4.5% 7%;
+    padding: 4.5% 5%;
     background-image: linear-gradient(56deg, #e47312, #ff6361);
 }
 #section6 > div
@@ -1563,6 +1609,10 @@ footer
 footer > article
 {
     display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 footer > article > div
 {
@@ -1618,6 +1668,10 @@ footer > aside
 {
     margin-top: 80px;
     display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 footer .nuuk-logo
 {
