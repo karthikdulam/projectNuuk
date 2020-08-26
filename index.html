@@ -13,28 +13,37 @@
         <section id="section1">
             <div id="topbar">
                 <img class="nuuk-logo" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-white.png" alt="name-logo"/>
+                <input class="radio-class" type="radio" name="radio2" id="k1" />
+                <input class="radio-class" type="radio" name="radio2" id="k2" />
                 <div id="menu">
-                    <h3 class="menu-items">HOME</h3>
-                    <h3 class="menu-items">PROJECTS</h3>
-                    <h3 class="menu-items">ABOUT</h3>
-                    <h3 class="menu-items">SERVICES</h3>
-                    <h3 class="menu-items">BLOG</h3>
-                    <h3 class="menu-items">PAGES<i class="fas fa-caret-down"></i></h3>
-                    <div id="page-hidden">
-                        <p class="hidden-items">404 ERROR PAGE</p>
-                        <p class="hidden-items">PROTECTED PAGE</p>
-                        <p class="hidden-items">STYLE GUIDE</p>
-                        <p class="hidden-items">LICENSING</p>
+                    <div id="menu-items-div">
+                        <h3 class="menu-items">HOME</h3>
+                        <h3 class="menu-items">PROJECTS</h3>
+                        <h3 class="menu-items">ABOUT</h3>
+                        <h3 class="menu-items">SERVICES</h3>
+                        <h3 class="menu-items">BLOG</h3>
+                        <h3 class="menu-items">PAGES<i class="fas fa-caret-down"></i></h3>
+                        <div id="page-hidden">
+                            <p class="hidden-items">404 ERROR PAGE</p>
+                            <p class="hidden-items">PROTECTED PAGE</p>
+                            <p class="hidden-items">STYLE GUIDE</p>
+                            <p class="hidden-items">LICENSING</p>
+                        </div>
                     </div>
                 </div>
-                <input type="radio" name="radio" id="r1" />
-                <input type="radio" name="radio" id="r2" />
+                <input class="radio-class" type="radio" name="radio1" id="r1" />
+                <input class="radio-class" type="radio" name="radio1" id="r2" />
+                <label for="k1" id="open">
                 <svg>
                     <line x1="0" y1="24" x2="30" y2="24"
                     stroke="black" stroke-width="1.5px"/>
                     <line x1="0" y1="36" x2="30" y2="36"
                     stroke="black" stroke-width="1.5px"/>
                 </svg>
+                </label>
+                <label for="k2" id="close">
+                    <div id="close-div"></div>
+                </label>
                 <label for="r1">
                 <div id="free-quote">
                     <h4 class="h4-class">GET FREE QUOTE</h4>
@@ -218,7 +227,7 @@
             <div>
                 <h1 class="sec-headings" style="color: white;">LET'S MAKE SOMETHING GREAT TOGETHER</h1>
                 <p>Get in touch with us and send basic info for a quick quote.</p>
-                <h4 class="h4-class link-hovers-white">GET FREE QUOTE</h4>
+                <label for="r1"><h4 class="h4-class link-hovers-white">GET FREE QUOTE</h4></label>
             </div>
         </article>
         <article id="sec4-article4">
