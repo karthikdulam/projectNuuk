@@ -15,7 +15,7 @@ body
     z-index: 2000;
     overflow: auto;
 }
-/* SECTION1 TOP */
+/* SECTION 1 TOP */
 #main-sec1
 {
     height: calc(100vh - 4vh);
