@@ -554,6 +554,7 @@ svg
     {
         width: 100%;
         padding: 15px 20px 5px 0px;
+        /* transform: translateY(16.5vh); */
         position: absolute;
     }
     #top-details-div > div
