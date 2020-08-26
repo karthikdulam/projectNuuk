@@ -202,7 +202,7 @@ svg
     }
     #main-sec1
     {
-        height: calc(100vh + 12vh);
+        height: 800px;
     }
     #topbar
     {
@@ -215,7 +215,7 @@ svg
     }
     #section1
     {
-        height: 110vh;
+        height: 800px;
         padding: 0%;
         position: static;
     }
@@ -554,8 +554,8 @@ svg
     {
         width: 100%;
         padding: 15px 20px 5px 0px;
-        transform: translateY(16.5vh);
-        position: static;
+        /* transform: translateY(16.5vh); */
+        position: absolute;
     }
     #top-details-div > div
     {
@@ -565,10 +565,10 @@ svg
     }
     .app-logos
     {
-        position: static;
+        position: absolute;
         width: 60px;
-        float: right;
-        transform: translateY(16.5vh);
+        /* float: right; */
+        /* transform: translateY(16.5vh); */
     }
 }
 
@@ -577,14 +577,14 @@ svg
     #top-details
     {
         padding: 15px 20px 5px 0px;
-        transform: translateY(19vh);
-        position: static;
+        /* transform: translateY(19vh);
+        position: static; */
     }
     .app-logos
     {
-        position: static;
+        /* position: static; */
         width: 55px;
-        transform: translateY(6vh);
+        /* transform: translateY(6vh); */
         padding: 0px 11px;
         z-index: 10;
     }
