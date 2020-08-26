@@ -554,7 +554,6 @@ svg
     {
         width: 100%;
         padding: 15px 20px 5px 0px;
-        /* transform: translateY(16.5vh); */
         position: absolute;
     }
     #top-details-div > div
@@ -567,8 +566,6 @@ svg
     {
         position: absolute;
         width: 60px;
-        /* float: right; */
-        /* transform: translateY(16.5vh); */
     }
 }
 
@@ -577,14 +574,10 @@ svg
     #top-details
     {
         padding: 15px 20px 5px 0px;
-        /* transform: translateY(19vh);
-        position: static; */
     }
     .app-logos
     {
-        /* position: static; */
         width: 55px;
-        /* transform: translateY(6vh); */
         padding: 0px 11px;
         z-index: 10;
     }
@@ -597,8 +590,8 @@ svg
     }
     .app-logos
     {
-        /* transform: translateY(35px); */
-        transform: translateY(-20px);
+        position: absolute;
+        bottom: 0;
         width: auto;
         padding: 10px;
     }
