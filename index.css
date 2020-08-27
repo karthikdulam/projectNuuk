@@ -301,6 +301,7 @@ svg
         width: 100%;
         left: 0;
         top: 60px;
+        z-index: 10;
     }
     #menu-items-div > h3:nth-of-type(1), #menu-items-div > h3:nth-of-type(5)
     {
@@ -359,7 +360,6 @@ svg
     top: 0%;
     display: none;
     position: fixed;
-    transition: 2s;
 }
 #form:after { 
     content: "QUOTE"; 
