@@ -1449,6 +1449,10 @@ svg
     {
         margin-bottom: 0;
     }
+    #sec4-article5 > div
+    {
+        padding: 0;
+    }
 }
 /* section 5 */
 #section5
@@ -1615,6 +1619,10 @@ svg
     #section5 > aside > article
     {
         margin-bottom: 50px;
+    }
+    #section5 .slh-mobile
+    {
+        width: 68px;
     }
 }
 /* section 6 */
